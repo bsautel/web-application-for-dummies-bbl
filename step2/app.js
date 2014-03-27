@@ -51,7 +51,7 @@ function TasksController($scope, $filter) {
     };
 }
 
-angular.module('demo', []).config(
+angular.module('demo', ['ngRoute']).config(
     [
         '$routeProvider',
         function($routeProvider) {
